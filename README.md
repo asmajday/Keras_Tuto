@@ -7,6 +7,7 @@
 > Keras, tensorflow, neural network, AI, deep learning, python.
 
 ***Requierements***
+
 This tutorial requires the following packages:
 - python 3.6.5
 > For the installation https://www.python.org/downloads/
