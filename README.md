@@ -4,7 +4,24 @@
 
 > In this tutorial, you will discover how to create your first deep learning neural network model in Python using Keras.
 
-> Keras, tensorflow, neural network, AI, deep learning.
+> Keras, tensorflow, neural network, AI, deep learning, python.
+
+***Requierements***
+This tutorial requires the following packages:
+- python 3.6.5
+> For the installation https://www.python.org/downloads/
+- keras 2.3.1 : https://keras.io/
+```shell
+pip install keras
+```
+- tensorflow 2.0.0  
+```shell
+pip install tensorflow
+```
+- numpy 1.17.4
+```shell
+pip install numpy
+```
 
 **The steps you are going to cover in this tutorial are as follows:**
 
@@ -15,16 +32,11 @@
 - Evaluate Keras Model
 - Make a Prediction
 
-***Requierements***
-
-- python 3.6.5
-- keras 2.3.1
-- tensorflow 2.0.0
-- numpy 1.17.4
 
 ## Load Data
 In this Keras tutorial, we are going to use the Pima Indians onset of diabetes dataset.
-The dataset us available from <a href="https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv">here</a>: 
+The dataset us available from <a href="https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv">here</a>.
+Download the dataset and place it in your local working directory, the same location as your python file.
 ```python
 
 # load the dataset
